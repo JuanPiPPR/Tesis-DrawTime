@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Draw Time!</title>
+        <meta name="description" content="Draw Time para tesis de grado ITAT" />
+        <meta name="author" content="Juan Pablo Palacios, Juan Marin, Jorge Montiel" />
+        <meta name="keywords" content="Dibujo, Cursos, Texto" />
+        <link rel="stylesheet" href="main.css">
+        <link rel="icon" type="image/png" href="icons/Home2x.png"/>
+    </head>
+    <body class="agrupar">
+        
+        <header class="cabecera">
+                <h1>DrawTime!</h1>
+        </header>
+            
+        <section class="seccion">
+            <hgroup>
+                <h1>Expande tus habilidades</h1>
+                <h2>Entra a DrawTime! Aprende, practica y crea...</h2>
+            </hgroup>
+            <div>
+                <button class="boton3" onclick="document.getElementById('id01').style.display='block'"> COMIENZA AHORA</button>
+                <div id="id01" class="modal">
+                    <form class="modal-content animate" action="home.html">
+                        <div class="imgcontainer">
+                            <img src="icons/Avatar.png" alt="Avatar" class="avatar">
+                        </div>
+                        <b>Bienvenido a DrawTime!</b>
+                        <div class="container">
+                            <div>
+                                <label for="uname"><b>Usuario:</b></label>
+                                <input type="text" placeholder="Username" name="uname" required>
+                            </div>
+                            <div>
+                                <label for="psw"><b>Contraseña:</b></label>
+                                <input type="password" placeholder="Password" name="psw" required>
+                            </div>
+                            <button type="submit">INGRESAR</button>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="pie">
+            DrawTime! since 2021
+        </footer>
+
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
